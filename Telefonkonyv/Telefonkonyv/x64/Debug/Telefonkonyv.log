@@ -1,0 +1,9 @@
+﻿  Sajat_string.cpp
+d:\documents\github\prog2_hazi\telefonkonyv\telefonkonyv\sajat_string.cpp(13): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Compiling...
+  Sajat_string_proba.cpp
+  Generating Code...
+d:\documents\github\prog2_hazi\telefonkonyv\telefonkonyv\sajat_string.h(22): warning C4172: returning address of local variable or temporary
+  Telefonkonyv.vcxproj -> D:\Documents\GitHub\Prog2_hazi\Telefonkonyv\x64\Debug\Telefonkonyv.exe
+  Telefonkonyv.vcxproj -> D:\Documents\GitHub\Prog2_hazi\Telefonkonyv\x64\Debug\Telefonkonyv.pdb (Partial PDB)
