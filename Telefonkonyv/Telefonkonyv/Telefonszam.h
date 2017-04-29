@@ -6,7 +6,11 @@ class Telefonszam
 	int szam;
 public:
 	Telefonszam(long long int telefonszam);
-	int getSzam();
-	void setSzam();
+	int getElo() { return eloHivo; }
+	int getSzolg() { return szolgaltato; }
+	int getSzam() { return szam; }
+	void setElo(int);
+	void setSzolg(int);
+	void setSzam(int);
 };
 

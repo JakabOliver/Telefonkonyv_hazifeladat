@@ -17,7 +17,7 @@ String::String(const char* p)
 
 String::String(const String& szo)
 {
-	len = szo.getHossz();						// Meghatározzuk a hosszát
+	len = szo.len;						// Meghatározzuk a hosszát
 	pData = new char[len+1];						//helyet foglalunk
 	strcpy(pData, szo.pData);
 }
@@ -34,7 +34,7 @@ char& String::operator[]  (unsigned int i) const
 	else				return pData[i];
 }
 
-String String::operator+ (const String szo) const
+String String::operator+ (const String& szo) const
 {
 	String temp;		
 	temp.len = len + szo.len;
@@ -45,7 +45,7 @@ String String::operator+ (const String szo) const
 	return temp;
 }
 
-String& String::operator= (const String szo)
+String& String::operator= (const String& szo)
 {
 	if (this!=&szo)
 	{

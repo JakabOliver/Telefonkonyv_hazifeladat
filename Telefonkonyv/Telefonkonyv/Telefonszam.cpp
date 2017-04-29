@@ -50,3 +50,16 @@ Telefonszam::Telefonszam(long long int telefonszam)
 	}
 }
 
+
+void Telefonszam::setElo(int sz=6)
+{
+	eloHivo = sz;
+}
+void Telefonszam::setSzolg(int sz=0)
+{
+	szolgaltato = sz;
+}
+void Telefonszam::setSzam(int sz=0)
+{
+	szam = sz;
+}

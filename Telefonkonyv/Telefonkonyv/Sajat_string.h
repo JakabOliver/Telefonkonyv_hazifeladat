@@ -19,9 +19,9 @@ public:
 	char& operator[] (unsigned int i);
 	char& operator[]  (unsigned int i)const;
 	
-	String& operator+ (char betu) const { return *this + String(betu); }
-	String operator+ (const String szo) const;
-	String& operator= (const String szo);
+	String operator+ (char betu) const { return *this + String(betu); }
+	String operator+ (const String& szo) const;
+	String& operator= (const String& szo);
 	String& operator+=(const String szo) 	{	*this = *this + szo;		return *this;}
 	~String() {	delete[] pData; }
 };

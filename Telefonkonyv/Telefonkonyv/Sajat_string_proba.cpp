@@ -2,7 +2,6 @@
 
 
 
-#define SAJAT_STRING
 #ifdef SAJAT_STRING
 
 
@@ -12,18 +11,7 @@ int main(void)
 	setlocale(LC_ALL, "");
 	try
 	{
-		String Alma("Korte");
-		std::cout << Alma << std::endl;
-		String betu("a");
-		std::cout << betu << std::endl;
-		String Korte("répa");
-		Korte= Alma;
-		std::cout << Korte << std::endl;
-		Korte = Alma + betu;
-		std::cout << Alma + betu;
-		std::cout << Alma << std::endl;
-		Alma + 'k';
-		std::cout << Alma + 'k';
+		String alma("Szöveg");
 	}
 
 	catch (...)

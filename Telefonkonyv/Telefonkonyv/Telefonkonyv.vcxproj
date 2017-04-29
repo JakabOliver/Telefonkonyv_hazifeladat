@@ -112,17 +112,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Contact.h" />
+    <ClInclude Include="Lista.h" />
     <ClInclude Include="Sajat_string.h" />
     <ClInclude Include="Telefonszam.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Contact.cpp" />
+    <ClCompile Include="Contact_proba.cpp" />
     <ClCompile Include="Sajat_string.cpp" />
     <ClCompile Include="Sajat_string_proba.cpp" />
     <ClCompile Include="Telefonszam.cpp" />
     <ClCompile Include="telefonszam_proba.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
